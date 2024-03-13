@@ -43,6 +43,7 @@ bool enable_pulser()
     ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, (pulse_width * UINT16_MAX) / (MAX_PULSE_WIDTH));
 }
 
+// TODO: Better way do disable other than duty = 0?
 bool disable_pulser()
 {
     ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, 0);

@@ -38,6 +38,7 @@ String outputstring;
 void updatePulseWidth();
 void set_ledc_timer();
 
+// TODO: Faster ISR?
 void IRAM_ATTR onFallingedge()
 { // on the rising edge of the LEDC pulse
     // on rising edge starts another timer alarm
@@ -56,46 +57,28 @@ void setup()
     pinMode(TIMER_PIN, OUTPUT);
     Serial.begin(BAUD_RATE);
 
-    set_ledc_timer();
+    initialize_pulser();
     // Attach an interrupt to the falling edge of the LEDC signal
+    attachInterrupt(PIN_PULSE_OUTPUT, &onFallingedge, FALLING);
 
     Serial.println("ESP32 Pulser setup passed!");
 }
 
-void set_ledc_timer()
-{
-    ledc_timer_config_t ledc_timer = {
-        .speed_mode = LEDC_HIGH_SPEED_MODE,
-        .duty_resolution = LEDC_TIMER_16_BIT, // 16-bit duty resolution
-        .timer_num = LEDC_TIMER_0,
-        .freq_hz = freq};
-    ledc_timer_config(&ledc_timer);
-
-    // Configure LEDC channel with a fixed duty cycle (e.g., 50%) for a 1ms period
-    ledc_channel_config_t ledc_channel = {
-        .gpio_num = PIN_PULSE_OUTPUT,
-        .speed_mode = LEDC_HIGH_SPEED_MODE,
-        .channel = LEDC_CHANNEL_0,
-        .timer_sel = LEDC_TIMER_0,
-        .duty = 0};
-    ledc_channel_config(&ledc_channel);
-    updatePulseWidth();
-
-    // Attach an interrupt to the rising edge of the LEDC signal
-    attachInterrupt(PIN_PULSE_OUTPUT, &onFallingedge, FALLING);
-}
-
 void loop()
 {
+    // TODO: test time to run 5 ADC conversions back to back
+    
     if (sampleinterruptdetected)
     {
         sampleinterruptdetected = false;
     }
     else
     {
+        // TODO: Main menu FSM 
         byte size = Serial.readBytes(teststr, INPUT_SIZE);
         // Add the final 0 to end the C string
         teststr[size] = 0;
+        
         outputstring = teststr;
         String tokens = "";
         if (size != 0)

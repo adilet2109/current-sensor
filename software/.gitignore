@@ -8,3 +8,5 @@
 .piolibdeps
 .clang_complete
 .gcc-flags.json
+*.code-workspace
+*.pdf
