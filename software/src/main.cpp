@@ -3,9 +3,11 @@
 #include <driver/ledc.h>
 #include <stdint.h> // Include stdint.h for fixed-width data types
 #include <Bounce2.h>
+#include <Wire.h>
 
 #include "pins.h"
-#include "pulser.h"
+#include <pulser.h>
+#include <tps55289.h>
 
 #define NUM_READINGS (uint8_t)50 // Number of ADC readings to average
 #define BAUD_RATE 115200
@@ -20,7 +22,7 @@ volatile int32_t adcSum = 0;
 volatile uint64_t isr_count = 0;
 volatile bool isr_indicator_status = LOW;
 volatile uint32_t pulseWidth = DEFAULT_PULSEWIDTH;
-volatile bool ledcEnabled = false;
+volatile bool ledcEnabled = true;
 volatile bool transmitReading = false;
 volatile bool flipbit = false;
 uint32_t averageMillivolts;
@@ -29,10 +31,12 @@ volatile bool timerEnabled = false;
 bool sampleinterruptdetected = false;
 bool changed = false;
 uint32_t freq = DEFAULT_FREQ_HZ;
+uint16_t current = 0;
+uint16_t vout_mv = 0;
 char teststr[INPUT_SIZE + 1];
-int i = -1;
-int reg[4] = {1, 2, 3, 4};
-int num = 666;
+int8_t i = -1;
+uint16_t reg[5] = {0,0,0,0,0};
+uint16_t num = 666;
 String outputstring;
 
 void updatePulseWidth();
@@ -51,23 +55,42 @@ void IRAM_ATTR onFallingedge()
     digitalWrite(TIMER_PIN, LOW);
 }
 
+
 void setup()
 {
     pinMode(PIN_PULSE_OUTPUT, OUTPUT);
     pinMode(TIMER_PIN, OUTPUT);
     Serial.begin(BAUD_RATE);
 
-    initialize_pulser();
+    //initialize_pulser();
     // Attach an interrupt to the falling edge of the LEDC signal
     attachInterrupt(PIN_PULSE_OUTPUT, &onFallingedge, FALLING);
 
+    pinMode(TPS55289_EN_PIN, OUTPUT);
+    digitalWrite(TPS55289_EN_PIN, HIGH);
+
+    tps55289_initialize();
+    //tps55289_set_vout(1000);
+    tps55289_disable_output();
+
+    
+
     Serial.println("ESP32 Pulser setup passed!");
+
+    Serial.println("Available commands:");
+    Serial.println("freq");
+    Serial.println("width");
+    Serial.println("curr");
+    Serial.println("onoff");
+    Serial.println("vout");
+    Serial.println("'<cmd> ?' to view current setting");
+
 }
 
 void loop()
 {
     // TODO: test time to run 5 ADC conversions back to back
-    
+
     if (sampleinterruptdetected)
     {
         sampleinterruptdetected = false;
@@ -83,13 +106,12 @@ void loop()
         String tokens = "";
         if (size != 0)
         {
-            // Serial.println(outputstring);
             //    remove any \r \n whitespace at the end of the String
             char *token = strtok(teststr, "     ");
-            // Serial.println(token);
+            
             tokens = token;
             tokens.trim();
-            // Serial.println(tokens);
+
             i = 99;
             if (tokens.equals("freq"))
             {
@@ -107,11 +129,14 @@ void loop()
             {
                 i = 4;
             }
+            else if (tokens.equals("vout"))
+            {
+                i = 5;
+            }
             else
                 Serial.println("Error!");
-            // Serial.print(i);
+            
             token = strtok(NULL, "     ");
-            // Serial.println(token);
             tokens = token;
             tokens.trim();
             if (tokens.length() > 0)
@@ -130,27 +155,55 @@ void loop()
 
         if (changed)
         {
+            changed = false;
 
-            // here something has changed so lets reset everything....
-            Serial.println("Somethings happening here...");
             freq = reg[0];
             if (freq < DEFAULT_MIN_FREQ)
                 freq = DEFAULT_MIN_FREQ;
             if (freq > DEFAULT_MAX_FREQ)
                 freq = DEFAULT_MAX_FREQ;
             reg[0] = freq;
-            // Do stuff based on button states
-            changed = false;
+            Serial.print("freq: ");
+            Serial.println(freq);
+            
             pulseWidth = reg[1];
             if (pulseWidth < DEFAULT_MIN_PULSEWIDTH)
                 pulseWidth = DEFAULT_MIN_PULSEWIDTH;
             if (pulseWidth > DEFAULT_MAX_PULSEWIDTH)
                 pulseWidth = DEFAULT_MAX_PULSEWIDTH;
             reg[1] = pulseWidth;
-            if (!reg[3])
-                pulseWidth = 0;
+            Serial.print("pulseWidth: ");
+            Serial.println(pulseWidth);
 
-            set_ledc_timer();     // set new ledc frequence
+            current = reg[2];
+            if (current < 0)
+                current = 0;
+            if (current > 20000U)
+                current = 20000U;
+            reg[2] = current;
+            Serial.print("current: ");
+            Serial.println(current);
+
+            if (!reg[3])
+            {
+                pulseWidth = 0;
+                tps55289_disable_output();
+            }
+            else
+                tps55289_enable_output(); 
+            Serial.print("onoff: ");
+            Serial.println(reg[3]);
+
+            if (reg[4] > 15000U)
+                reg[4] = 15000U;
+            if (reg[4] < 0)
+                reg[4] = 0;
+            vout_mv = reg[4];
+            tps55289_set_vout(vout_mv);
+            Serial.print("vout_mv: ");
+            Serial.println(vout_mv);
+
+            set_ledc_timer();   // set new ledc frequence
             updatePulseWidth(); // set new pulsewidth
         }
     }
@@ -162,4 +215,28 @@ void updatePulseWidth()
     ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, duty);
     if (ledcEnabled)
         ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0);
+}
+
+void set_ledc_timer() {
+  ledc_timer_config_t ledc_timer = {
+    .speed_mode = LEDC_HIGH_SPEED_MODE,
+    .duty_resolution = LEDC_TIMER_16_BIT, // 16-bit duty resolution
+    .timer_num = LEDC_TIMER_0,
+    .freq_hz = freq
+  };
+  ledc_timer_config(&ledc_timer);
+
+  // Configure LEDC channel with a fixed duty cycle (e.g., 50%) for a 1ms period
+  ledc_channel_config_t ledc_channel = {
+    .gpio_num = PIN_PULSE_OUTPUT,
+    .speed_mode = LEDC_HIGH_SPEED_MODE, 
+    .channel = LEDC_CHANNEL_0,
+    .timer_sel = LEDC_TIMER_0,
+    .duty = 0
+  };
+  ledc_channel_config(&ledc_channel);
+  updatePulseWidth();
+
+  // Attach an interrupt to the rising edge of the LEDC signal
+  attachInterrupt(PIN_PULSE_OUTPUT, &onFallingedge, FALLING);
 }

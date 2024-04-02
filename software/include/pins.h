@@ -16,6 +16,7 @@
 #define ENABLE_PIN          34
 #define DECREASE_PIN        25
 #define INCREASE_PIN        26
-#define TIMER_PIN           32             
+#define TIMER_PIN           32      
+#define TPS55289_EN_PIN     4       
 
 #endif

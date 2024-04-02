@@ -10,7 +10,7 @@
 #include <soc/ledc_reg.h>
 #include <driver/ledc.h>
 #include "pins.h"
-#include "pulser.h"
+#include <pulser.h>
 
 static uint32_t pulse_width = 0;
 
