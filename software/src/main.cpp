@@ -35,7 +35,7 @@ uint16_t current = 0;
 uint16_t vout_mv = 0;
 char teststr[INPUT_SIZE + 1];
 int8_t i = -1;
-uint16_t reg[5] = {0,0,0,0,0};
+uint16_t reg[5] = {0, 0, 0, 0, 0};
 uint16_t num = 666;
 String outputstring;
 
@@ -55,25 +55,22 @@ void IRAM_ATTR onFallingedge()
     digitalWrite(TIMER_PIN, LOW);
 }
 
-
 void setup()
 {
     pinMode(PIN_PULSE_OUTPUT, OUTPUT);
     pinMode(TIMER_PIN, OUTPUT);
     Serial.begin(BAUD_RATE);
 
-    //initialize_pulser();
-    // Attach an interrupt to the falling edge of the LEDC signal
+    // initialize_pulser();
+    //  Attach an interrupt to the falling edge of the LEDC signal
     attachInterrupt(PIN_PULSE_OUTPUT, &onFallingedge, FALLING);
 
     pinMode(TPS55289_EN_PIN, OUTPUT);
     digitalWrite(TPS55289_EN_PIN, HIGH);
 
     tps55289_initialize();
-    //tps55289_set_vout(1000);
+    // tps55289_set_vout(1000);
     tps55289_disable_output();
-
-    
 
     Serial.println("ESP32 Pulser setup passed!");
 
@@ -84,7 +81,6 @@ void setup()
     Serial.println("onoff");
     Serial.println("vout");
     Serial.println("'<cmd> ?' to view current setting");
-
 }
 
 void loop()
@@ -97,18 +93,18 @@ void loop()
     }
     else
     {
-        // TODO: Main menu FSM 
+        // TODO: Main menu FSM
         byte size = Serial.readBytes(teststr, INPUT_SIZE);
         // Add the final 0 to end the C string
         teststr[size] = 0;
-        
+
         outputstring = teststr;
         String tokens = "";
         if (size != 0)
         {
             //    remove any \r \n whitespace at the end of the String
             char *token = strtok(teststr, "     ");
-            
+
             tokens = token;
             tokens.trim();
 
@@ -135,7 +131,7 @@ void loop()
             }
             else
                 Serial.println("Error!");
-            
+
             token = strtok(NULL, "     ");
             tokens = token;
             tokens.trim();
@@ -165,7 +161,7 @@ void loop()
             reg[0] = freq;
             Serial.print("freq: ");
             Serial.println(freq);
-            
+
             pulseWidth = reg[1];
             if (pulseWidth < DEFAULT_MIN_PULSEWIDTH)
                 pulseWidth = DEFAULT_MIN_PULSEWIDTH;
@@ -190,7 +186,7 @@ void loop()
                 tps55289_disable_output();
             }
             else
-                tps55289_enable_output(); 
+                tps55289_enable_output();
             Serial.print("onoff: ");
             Serial.println(reg[3]);
 
@@ -217,26 +213,25 @@ void updatePulseWidth()
         ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0);
 }
 
-void set_ledc_timer() {
-  ledc_timer_config_t ledc_timer = {
-    .speed_mode = LEDC_HIGH_SPEED_MODE,
-    .duty_resolution = LEDC_TIMER_16_BIT, // 16-bit duty resolution
-    .timer_num = LEDC_TIMER_0,
-    .freq_hz = freq
-  };
-  ledc_timer_config(&ledc_timer);
+void set_ledc_timer()
+{
+    ledc_timer_config_t ledc_timer = {
+        .speed_mode = LEDC_HIGH_SPEED_MODE,
+        .duty_resolution = LEDC_TIMER_16_BIT, // 16-bit duty resolution
+        .timer_num = LEDC_TIMER_0,
+        .freq_hz = freq};
+    ledc_timer_config(&ledc_timer);
 
-  // Configure LEDC channel with a fixed duty cycle (e.g., 50%) for a 1ms period
-  ledc_channel_config_t ledc_channel = {
-    .gpio_num = PIN_PULSE_OUTPUT,
-    .speed_mode = LEDC_HIGH_SPEED_MODE, 
-    .channel = LEDC_CHANNEL_0,
-    .timer_sel = LEDC_TIMER_0,
-    .duty = 0
-  };
-  ledc_channel_config(&ledc_channel);
-  updatePulseWidth();
+    // Configure LEDC channel with a fixed duty cycle (e.g., 50%) for a 1ms period
+    ledc_channel_config_t ledc_channel = {
+        .gpio_num = PIN_PULSE_OUTPUT,
+        .speed_mode = LEDC_HIGH_SPEED_MODE,
+        .channel = LEDC_CHANNEL_0,
+        .timer_sel = LEDC_TIMER_0,
+        .duty = 0};
+    ledc_channel_config(&ledc_channel);
+    updatePulseWidth();
 
-  // Attach an interrupt to the rising edge of the LEDC signal
-  attachInterrupt(PIN_PULSE_OUTPUT, &onFallingedge, FALLING);
+    // Attach an interrupt to the rising edge of the LEDC signal
+    attachInterrupt(PIN_PULSE_OUTPUT, &onFallingedge, FALLING);
 }
