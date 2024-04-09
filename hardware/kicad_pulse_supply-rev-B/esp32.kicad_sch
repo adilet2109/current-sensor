@@ -5567,10 +5567,6 @@
 					(reference "#PWR07")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5702,10 +5698,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR03")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5840,10 +5832,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6308,10 +6296,6 @@
 					(reference "#PWR08")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6450,10 +6434,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "C3")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6655,10 +6635,6 @@
 					(reference "#PWR013")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6729,10 +6705,6 @@
 					(reference "C2")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C13")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6797,10 +6769,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6869,10 +6837,6 @@
 					(reference "#PWR019")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR019")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6937,10 +6901,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7099,10 +7059,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "R4")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7384,10 +7340,6 @@
 					(reference "#PWR09")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7453,10 +7405,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "R3")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7591,10 +7539,6 @@
 					(reference "#PWR017")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7659,10 +7603,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR01")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7938,10 +7878,6 @@
 					(reference "C1")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C9")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -8025,7 +7961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b06cb591-3bc7-4089-ad24-bec079a922ea")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR021"
 			(at 46.99 173.99 0)
 			(effects
 				(font
@@ -8074,10 +8010,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR036")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR021")
 					(unit 1)
@@ -8293,10 +8225,6 @@
 					(reference "U1")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U10")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -8361,10 +8289,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR016")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8776,10 +8700,6 @@
 					(reference "C4")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C13")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -8868,7 +8788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e838fbc1-339c-49eb-bbbf-11b73503cd7f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 35.56 172.72 0)
 			(effects
 				(font
@@ -8917,10 +8837,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR018")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR020")
 					(unit 1)
@@ -8988,10 +8904,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR010")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9129,10 +9041,6 @@
 					(reference "#PWR012")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR035")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -9197,10 +9105,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR018")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9269,10 +9173,6 @@
 					(reference "#PWR011")
 					(unit 1)
 				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR019")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -9337,10 +9237,6 @@
 			(project "kicad_pulse_supply-rev-B"
 				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
 					(reference "#PWR05")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)

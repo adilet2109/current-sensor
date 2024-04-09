@@ -18,5 +18,7 @@ void tps55289_initialize();
 bool tps55289_enable_output();
 bool tps55289_disable_output();
 bool tps55289_set_vout(uint16_t vout_set_mv);
+void tps55289_status_report();
+
 
 #endif

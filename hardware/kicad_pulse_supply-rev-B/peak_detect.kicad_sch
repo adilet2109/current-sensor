@@ -4177,7 +4177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0216e004-bfdf-4ad9-aed9-3718ea7de90d")
-		(property "Reference" "R4"
+		(property "Reference" "R22"
 			(at 69.85 15.24 90)
 			(effects
 				(font
@@ -4228,10 +4228,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R22")
 					(unit 1)
@@ -4314,7 +4310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "059269a0-7e21-454e-97b1-f578fd708b30")
-		(property "Reference" "C3"
+		(property "Reference" "C25"
 			(at 123.19 36.8363 0)
 			(effects
 				(font
@@ -4367,10 +4363,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C25")
 					(unit 1)
@@ -4456,7 +4448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c41117-ef0e-4b7d-812b-1b22356f4f06")
-		(property "Reference" "C3"
+		(property "Reference" "C26"
 			(at 261.62 38.1063 0)
 			(effects
 				(font
@@ -4509,10 +4501,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C26")
 					(unit 1)
@@ -4530,7 +4518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c00e5b-e245-438f-a5c6-55299282cb71")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR058"
 			(at 120.65 95.25 0)
 			(effects
 				(font
@@ -4579,10 +4567,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR058")
 					(unit 1)
@@ -4600,7 +4584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "164c6835-04d4-4535-ad5d-c3f5424143d0")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR054"
 			(at 170.18 60.96 0)
 			(effects
 				(font
@@ -4649,14 +4633,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
-					(reference "#PWR070")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR054")
 					(unit 1)
@@ -4673,7 +4649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "181df23a-fba9-4db0-928d-1b18badf9170")
-		(property "Reference" "TP13"
+		(property "Reference" "TP19"
 			(at 135.89 95.25 90)
 			(effects
 				(font
@@ -4721,10 +4697,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "TP13")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "TP19")
 					(unit 1)
@@ -4878,7 +4850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c899998-112e-4061-b518-ee1d2004e54b")
-		(property "Reference" "R2"
+		(property "Reference" "R29"
 			(at 78.74 48.26 0)
 			(effects
 				(font
@@ -4931,10 +4903,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R29")
 					(unit 1)
@@ -4952,7 +4920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca1a3ae-c28b-4e93-b626-24d6c9731b50")
-		(property "Reference" "R4"
+		(property "Reference" "R23"
 			(at 208.28 16.51 90)
 			(effects
 				(font
@@ -5003,10 +4971,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R23")
 					(unit 1)
@@ -5024,7 +4988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d1aea4d-b3e7-4b8f-a7c2-70f68bbdaa80")
-		(property "Reference" "R2"
+		(property "Reference" "R40"
 			(at 78.74 139.7 0)
 			(effects
 				(font
@@ -5077,10 +5041,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R40")
 					(unit 1)
@@ -5098,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f3f2398-e09d-4eda-a24f-fb043ba7c497")
-		(property "Reference" "R2"
+		(property "Reference" "R45"
 			(at 78.74 185.42 0)
 			(effects
 				(font
@@ -5151,10 +5111,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R45")
 					(unit 1)
@@ -5237,7 +5193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23ef6410-e906-484d-9f7e-eb3071abd770")
-		(property "Reference" "R4"
+		(property "Reference" "R31"
 			(at 69.85 60.96 90)
 			(effects
 				(font
@@ -5288,10 +5244,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R31")
 					(unit 1)
@@ -5309,7 +5261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24fca437-472e-4622-ac9f-ba2476683501")
-		(property "Reference" "R1"
+		(property "Reference" "R43"
 			(at 30.48 172.72 90)
 			(effects
 				(font
@@ -5360,10 +5312,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R43")
 					(unit 1)
@@ -5381,7 +5329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27e9ef35-1b44-43a3-9bc3-bb528cedbdca")
-		(property "Reference" "C3"
+		(property "Reference" "C27"
 			(at 78.74 40.6463 0)
 			(effects
 				(font
@@ -5434,10 +5382,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C27")
 					(unit 1)
@@ -5454,7 +5398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d99dd79-b45f-4cd5-9e01-c237bcbaae12")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR055"
 			(at 214.63 62.23 0)
 			(effects
 				(font
@@ -5503,10 +5447,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR055")
 					(unit 1)
@@ -5524,7 +5464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e8a91d4-6727-4da1-8ecd-497f3d50cb59")
-		(property "Reference" "R2"
+		(property "Reference" "R30"
 			(at 217.17 49.53 0)
 			(effects
 				(font
@@ -5577,10 +5517,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R30")
 					(unit 1)
@@ -5597,7 +5533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31c2e211-bbef-4477-b181-90ef4bfd7b6b")
-		(property "Reference" "D7"
+		(property "Reference" "D16"
 			(at 53.34 160.02 0)
 			(effects
 				(font
@@ -5651,10 +5587,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D7")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D16")
 					(unit 1)
@@ -5672,7 +5604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c674e3-7175-4a71-8609-a74889a35c57")
-		(property "Reference" "R1"
+		(property "Reference" "R26"
 			(at 30.48 35.56 90)
 			(effects
 				(font
@@ -5723,10 +5655,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R26")
 					(unit 1)
@@ -5743,7 +5671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34706167-2952-43bb-8a8a-f49e5533c5e1")
-		(property "Reference" "TP13"
+		(property "Reference" "TP22"
 			(at 166.37 35.56 0)
 			(effects
 				(font
@@ -5791,10 +5719,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "TP13")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "TP22")
 					(unit 1)
@@ -5811,7 +5735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "395fcf6b-eb54-4088-aab7-aae3bc687f42")
-		(property "Reference" "D7"
+		(property "Reference" "D12"
 			(at 53.34 68.58 0)
 			(effects
 				(font
@@ -5865,10 +5789,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D7")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D12")
 					(unit 1)
@@ -5886,7 +5806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "398d9da5-9b3e-4951-bc7d-5a83df5d35f8")
-		(property "Reference" "D8"
+		(property "Reference" "D10"
 			(at 67.6275 33.02 0)
 			(effects
 				(font
@@ -5940,10 +5860,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D10")
 					(unit 1)
@@ -5960,7 +5876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f1d170a-f349-49d9-a9fe-808966ad184e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR066"
 			(at 44.45 172.72 0)
 			(effects
 				(font
@@ -6009,10 +5925,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR017")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR066")
 					(unit 1)
@@ -6030,7 +5942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40103f51-364b-4482-80bd-b01c5f65413d")
-		(property "Reference" "D8"
+		(property "Reference" "D17"
 			(at 67.6275 170.18 0)
 			(effects
 				(font
@@ -6084,10 +5996,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D17")
 					(unit 1)
@@ -6105,7 +6013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4377243a-774a-453a-8594-8a90ef909807")
-		(property "Reference" "C3"
+		(property "Reference" "C37"
 			(at 78.74 177.8063 0)
 			(effects
 				(font
@@ -6158,10 +6066,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C37")
 					(unit 1)
@@ -6244,7 +6148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "463e07dd-585d-4d29-a5d4-2b88a9b73ab2")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR048"
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -6293,10 +6197,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR048")
 					(unit 1)
@@ -6313,7 +6213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48ae007f-63a5-40cf-83f4-5b2e4d73107b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR044"
 			(at 44.45 35.56 0)
 			(effects
 				(font
@@ -6362,10 +6262,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR017")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR044")
 					(unit 1)
@@ -6383,7 +6279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a820fcd-8079-489b-84e8-e8848290a2a1")
-		(property "Reference" "R5"
+		(property "Reference" "R27"
 			(at 92.71 44.45 0)
 			(effects
 				(font
@@ -6436,10 +6332,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R27")
 					(unit 1)
@@ -6651,7 +6543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54b34c31-c2f8-4e2e-8021-248d8da09613")
-		(property "Reference" "TP13"
+		(property "Reference" "TP17"
 			(at 135.89 46.99 90)
 			(effects
 				(font
@@ -6699,10 +6591,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "TP13")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "TP17")
 					(unit 1)
@@ -6786,7 +6674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58c65568-182a-4b4a-958d-b1b378ed26c8")
-		(property "Reference" "D7"
+		(property "Reference" "D9"
 			(at 191.77 24.13 0)
 			(effects
 				(font
@@ -6840,10 +6728,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D7")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D9")
 					(unit 1)
@@ -6925,7 +6809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b00c1de-54be-40b4-af65-03de2dccdd81")
-		(property "Reference" "U3"
+		(property "Reference" "U10"
 			(at 99.06 119.38 0)
 			(effects
 				(font
@@ -6994,10 +6878,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 2)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U10")
 					(unit 2)
@@ -7014,7 +6894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c351986-ecb2-4ba0-a031-ad688164334b")
-		(property "Reference" "TP13"
+		(property "Reference" "TP21"
 			(at 134.62 185.42 90)
 			(effects
 				(font
@@ -7062,10 +6942,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "TP13")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "TP21")
 					(unit 1)
@@ -7083,7 +6959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f1692b3-2476-4036-a4b3-e37a959917ab")
-		(property "Reference" "R5"
+		(property "Reference" "R44"
 			(at 92.71 181.61 0)
 			(effects
 				(font
@@ -7136,10 +7012,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R44")
 					(unit 1)
@@ -7224,7 +7096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61d54242-9ea6-4bfd-9876-390a29054179")
-		(property "Reference" "U3"
+		(property "Reference" "U11"
 			(at 35.56 182.88 0)
 			(effects
 				(font
@@ -7293,10 +7165,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U11")
 					(unit 1)
@@ -7314,7 +7182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65457888-6685-4fcb-92ff-d3157c7942e3")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 156.21 36.83 0)
 			(effects
 				(font
@@ -7367,14 +7235,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "J2")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
-					(reference "J3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "J3")
 					(unit 1)
@@ -7391,7 +7251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68542ae8-3b6b-4f51-ad8d-ae9eba552216")
-		(property "Reference" "U3"
+		(property "Reference" "U10"
 			(at 35.56 137.16 0)
 			(effects
 				(font
@@ -7460,10 +7320,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U10")
 					(unit 1)
@@ -7614,7 +7470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70aa4ee6-77f9-43a9-b644-f97e463ad990")
-		(property "Reference" "U3"
+		(property "Reference" "U9"
 			(at 99.06 73.66 0)
 			(effects
 				(font
@@ -7683,10 +7539,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 2)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U9")
 					(unit 2)
@@ -7703,7 +7555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bd859f2-be15-4269-95fa-e8978be86ba5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR056"
 			(at 44.45 81.28 0)
 			(effects
 				(font
@@ -7752,10 +7604,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR017")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR056")
 					(unit 1)
@@ -7772,7 +7620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82e41359-0b0a-4d75-beb6-531b0b22e57c")
-		(property "Reference" "U3"
+		(property "Reference" "U11"
 			(at 99.06 165.1 0)
 			(effects
 				(font
@@ -7841,10 +7689,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 2)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U11")
 					(unit 2)
@@ -7862,7 +7706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ac5b350-1f38-4050-a5ce-dbf418b4e652")
-		(property "Reference" "R5"
+		(property "Reference" "R28"
 			(at 231.14 45.72 0)
 			(effects
 				(font
@@ -7915,10 +7759,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R28")
 					(unit 1)
@@ -8001,7 +7841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c44cc6f-97b2-4913-ae93-ac56eea0a206")
-		(property "Reference" "D8"
+		(property "Reference" "D13"
 			(at 67.6275 78.74 0)
 			(effects
 				(font
@@ -8055,10 +7895,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D13")
 					(unit 1)
@@ -8076,7 +7912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8de58264-3a53-499f-b192-1596a893eb5c")
-		(property "Reference" "D8"
+		(property "Reference" "D15"
 			(at 67.6275 124.46 0)
 			(effects
 				(font
@@ -8130,10 +7966,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D15")
 					(unit 1)
@@ -8151,7 +7983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e24c37e-7646-46ec-8bba-235345e9c19a")
-		(property "Reference" "R1"
+		(property "Reference" "R33"
 			(at 30.48 81.28 90)
 			(effects
 				(font
@@ -8202,10 +8034,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R33")
 					(unit 1)
@@ -8289,7 +8117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96d545a4-be34-42ca-b176-9ec86795f3fc")
-		(property "Reference" "TP13"
+		(property "Reference" "TP20"
 			(at 135.89 140.97 90)
 			(effects
 				(font
@@ -8337,10 +8165,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "TP13")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "TP20")
 					(unit 1)
@@ -8357,7 +8181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a88ea68-607a-45b3-ba3c-81030221f657")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 53.34 22.86 0)
 			(effects
 				(font
@@ -8411,10 +8235,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D7")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D8")
 					(unit 1)
@@ -8431,7 +8251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9abe6be3-f694-48e3-b638-dbd18d550a9f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR061"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -8480,10 +8300,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR017")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR061")
 					(unit 1)
@@ -8500,7 +8316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d572538-76d2-4c06-80f7-be59541b58dd")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 237.49 29.21 0)
 			(effects
 				(font
@@ -8569,10 +8385,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 2)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U8")
 					(unit 2)
@@ -8590,7 +8402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a623e5e3-6a91-409b-888d-1b2d8ed64de3")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR049"
 			(at 259.08 50.8 0)
 			(effects
 				(font
@@ -8639,10 +8451,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR049")
 					(unit 1)
@@ -8660,7 +8468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a686e1c4-317b-408d-849a-2724db6276b5")
-		(property "Reference" "C3"
+		(property "Reference" "C34"
 			(at 78.74 132.0863 0)
 			(effects
 				(font
@@ -8713,10 +8521,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C34")
 					(unit 1)
@@ -8799,7 +8603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c6a369-bfba-48f3-8553-a0ef919ffd81")
-		(property "Reference" "R1"
+		(property "Reference" "R38"
 			(at 30.48 127 90)
 			(effects
 				(font
@@ -8850,10 +8654,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R38")
 					(unit 1)
@@ -8871,7 +8671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a87cb378-1b5d-4ac1-b210-0c15db47608b")
-		(property "Reference" "R2"
+		(property "Reference" "R35"
 			(at 78.74 93.98 0)
 			(effects
 				(font
@@ -8924,10 +8724,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R35")
 					(unit 1)
@@ -8945,7 +8741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3dc5425-ec63-47d6-9cf5-883bb120fcb6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR063"
 			(at 120.65 140.97 0)
 			(effects
 				(font
@@ -8994,10 +8790,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR063")
 					(unit 1)
@@ -9014,7 +8806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b48e2d16-b8ba-466f-a00f-9d2fdb58efaa")
-		(property "Reference" "TP13"
+		(property "Reference" "TP18"
 			(at 274.32 48.26 90)
 			(effects
 				(font
@@ -9062,10 +8854,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "TP13")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "TP18")
 					(unit 1)
@@ -9083,7 +8871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7aeb563-3b06-4d71-b90d-4c3d264138de")
-		(property "Reference" "C3"
+		(property "Reference" "C28"
 			(at 217.17 41.9163 0)
 			(effects
 				(font
@@ -9136,10 +8924,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C28")
 					(unit 1)
@@ -9156,7 +8940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be8fd868-1af8-407c-a7c3-613103002937")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR046"
 			(at 182.88 36.83 0)
 			(effects
 				(font
@@ -9205,10 +8989,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR017")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR046")
 					(unit 1)
@@ -9227,7 +9007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bed8508f-7730-4a73-8dbc-dafe72d8d032")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR051"
 			(at 154.94 54.61 0)
 			(effects
 				(font
@@ -9276,14 +9056,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/8fc2a7c4-a240-4e91-a1f0-9a8f5cb50887"
-					(reference "#PWR069")
-					(unit 1)
-				)
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR031")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR051")
 					(unit 1)
@@ -9301,7 +9073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c61f89a1-b274-44ee-9bf4-7d56881dd96b")
-		(property "Reference" "R4"
+		(property "Reference" "R41"
 			(at 69.85 152.4 90)
 			(effects
 				(font
@@ -9352,10 +9124,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R41")
 					(unit 1)
@@ -9372,7 +9140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf081c6e-2ebb-4775-834f-10466cdda44a")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 35.56 45.72 0)
 			(effects
 				(font
@@ -9441,10 +9209,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U7")
 					(unit 1)
@@ -9462,7 +9226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d08e958b-a605-40c7-a073-ec6acf843933")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR060"
 			(at 76.2 106.68 0)
 			(effects
 				(font
@@ -9511,10 +9275,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR060")
 					(unit 1)
@@ -9597,7 +9357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df2e3468-d156-44f3-ac98-dde8938b1101")
-		(property "Reference" "R5"
+		(property "Reference" "R34"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -9650,10 +9410,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R34")
 					(unit 1)
@@ -9819,7 +9575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e560d808-88b2-4fa0-a94b-816401dbfa8c")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 177.8 48.26 0)
 			(effects
 				(font
@@ -9888,10 +9644,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U8")
 					(unit 1)
@@ -9909,7 +9661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e74cf014-f5fc-419a-b116-36636f8a6990")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR065"
 			(at 76.2 152.4 0)
 			(effects
 				(font
@@ -9958,10 +9710,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR065")
 					(unit 1)
@@ -9979,7 +9727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e783a0b3-0bc3-4918-9fb3-a1d2e490b6c3")
-		(property "Reference" "C3"
+		(property "Reference" "C36"
 			(at 123.19 173.9963 0)
 			(effects
 				(font
@@ -10032,10 +9780,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C36")
 					(unit 1)
@@ -10053,7 +9797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaa37c74-767c-4a07-b608-6e71e41dec3d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR068"
 			(at 120.65 186.69 0)
 			(effects
 				(font
@@ -10102,10 +9846,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR068")
 					(unit 1)
@@ -10123,7 +9863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecaab962-af43-4234-9d69-8167f6e69823")
-		(property "Reference" "D8"
+		(property "Reference" "D11"
 			(at 206.0575 34.29 0)
 			(effects
 				(font
@@ -10177,10 +9917,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D8")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D11")
 					(unit 1)
@@ -10198,7 +9934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecdbc248-721a-4b2b-a427-529acd7d0e34")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR053"
 			(at 76.2 60.96 0)
 			(effects
 				(font
@@ -10247,10 +9983,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR053")
 					(unit 1)
@@ -10267,7 +9999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efc3a065-3b0c-4117-bf12-f7e5fa04f70e")
-		(property "Reference" "U3"
+		(property "Reference" "U9"
 			(at 35.56 91.44 0)
 			(effects
 				(font
@@ -10336,10 +10068,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U9")
 					(unit 1)
@@ -10356,7 +10084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0934722-ad58-42dc-9975-b4843da74a11")
-		(property "Reference" "D7"
+		(property "Reference" "D14"
 			(at 53.34 114.3 0)
 			(effects
 				(font
@@ -10410,10 +10138,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "D7")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "D14")
 					(unit 1)
@@ -10431,7 +10155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12bf1ed-9b20-47dc-b9e0-5ed37f645b2c")
-		(property "Reference" "C3"
+		(property "Reference" "C30"
 			(at 123.19 82.5563 0)
 			(effects
 				(font
@@ -10484,10 +10208,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C30")
 					(unit 1)
@@ -10505,7 +10225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2720750-82fb-48e1-9070-eb6917c9347e")
-		(property "Reference" "R5"
+		(property "Reference" "R39"
 			(at 92.71 135.89 0)
 			(effects
 				(font
@@ -10558,10 +10278,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R39")
 					(unit 1)
@@ -10578,7 +10294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f669f151-ba77-4dd4-b817-deecfefd66be")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 99.06 27.94 0)
 			(effects
 				(font
@@ -10647,10 +10363,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "U3")
-					(unit 2)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "U7")
 					(unit 2)
@@ -10668,7 +10380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d4a3a5-64d2-4053-aac2-ed9b612ec056")
-		(property "Reference" "C3"
+		(property "Reference" "C33"
 			(at 123.19 128.2763 0)
 			(effects
 				(font
@@ -10721,10 +10433,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C33")
 					(unit 1)
@@ -10742,7 +10450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f71967b8-c9ac-4339-9f6a-60a2f6f1cf21")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR070"
 			(at 76.2 198.12 0)
 			(effects
 				(font
@@ -10791,10 +10499,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "#PWR070")
 					(unit 1)
@@ -10880,7 +10584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc0b3f3-9645-4223-b969-88660c20cc07")
-		(property "Reference" "C3"
+		(property "Reference" "C31"
 			(at 78.74 86.3663 0)
 			(effects
 				(font
@@ -10933,10 +10637,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "C3")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "C31")
 					(unit 1)
@@ -10954,7 +10654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcde7347-755d-4692-89fc-79be92cc32a6")
-		(property "Reference" "R4"
+		(property "Reference" "R36"
 			(at 69.85 106.68 90)
 			(effects
 				(font
@@ -11005,10 +10705,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/75b8d852-df51-4f21-ba65-ed214b4fed79"
 					(reference "R36")
 					(unit 1)

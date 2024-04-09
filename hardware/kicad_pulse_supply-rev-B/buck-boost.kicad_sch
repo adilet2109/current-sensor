@@ -3443,6 +3443,58 @@
 		)
 		(uuid "f9fe988e-1359-4c37-9097-4bf67d9b334c")
 	)
+	(rectangle
+		(start 31.75 92.71)
+		(end 41.91 106.68)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 13 30 0.36)
+		)
+		(uuid 7d2450b9-73dc-4753-867a-d86db2c38f94)
+	)
+	(rectangle
+		(start 24.13 80.01)
+		(end 44.45 87.63)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 13 30 0.36)
+		)
+		(uuid c89b693f-901c-44bb-8668-99d3ebeabb59)
+	)
+	(rectangle
+		(start 113.03 52.07)
+		(end 133.35 57.15)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 13 30 0.36)
+		)
+		(uuid d956198a-391f-42b3-84dd-7fabfa90a6cf)
+	)
+	(text "Connect VCC and EXTVCC"
+		(exclude_from_sim no)
+		(at 122.936 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01d767a6-74cc-4c06-8899-7571de30d328")
+	)
 	(text "Input voltage"
 		(exclude_from_sim no)
 		(at 119.38 26.67 0)
@@ -3453,6 +3505,26 @@
 			(justify left bottom)
 		)
 		(uuid "03c8a13c-fe5c-4d14-9a11-20f87228f4f7")
+	)
+	(text "FB pulled UP"
+		(exclude_from_sim no)
+		(at 40.894 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87dd20ad-8cb8-4bdf-9d57-f20d6290e899")
+	)
+	(text "0u1 cap to ground?"
+		(exclude_from_sim no)
+		(at 36.83 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce7287ef-8c64-4620-9312-6d2f2709cf17")
 	)
 	(label "Vcc"
 		(at 111.76 55.88 180)
@@ -3933,7 +4005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08c5804c-3a66-4157-afd5-615c8579ac23")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR081"
 			(at 254 119.38 0)
 			(effects
 				(font
@@ -3982,10 +4054,6 @@
 		)
 		(instances
 			(project "kicad_pulse_supply-rev-B"
-				(path "/1c135520-adea-42af-a8f1-43758519483b/29466eae-66f8-44c1-b80f-ee44a57c3f0c"
-					(reference "#PWR037")
-					(unit 1)
-				)
 				(path "/1c135520-adea-42af-a8f1-43758519483b/d4bef40f-0c31-48ca-bb6f-724c95e748c8"
 					(reference "#PWR081")
 					(unit 1)

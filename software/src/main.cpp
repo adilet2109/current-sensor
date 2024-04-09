@@ -8,6 +8,7 @@
 #include "pins.h"
 #include <pulser.h>
 #include <tps55289.h>
+#include <utils.h>
 
 #define NUM_READINGS (uint8_t)50 // Number of ADC readings to average
 #define BAUD_RATE 115200
@@ -35,12 +36,13 @@ uint16_t current = 0;
 uint16_t vout_mv = 0;
 char teststr[INPUT_SIZE + 1];
 int8_t i = -1;
-uint16_t reg[5] = {0, 0, 0, 0, 0};
+uint16_t reg[6] = {0, 0, 0, 0, 0, 0};
 uint16_t num = 666;
 String outputstring;
 
 void updatePulseWidth();
 void set_ledc_timer();
+void int_to_hex_str(uint8_t num_digits, uint32_t value, char * hex_string);
 
 // TODO: Faster ISR?
 void IRAM_ATTR onFallingedge()
@@ -78,6 +80,7 @@ void setup()
     Serial.println("curr");
     Serial.println("onoff");
     Serial.println("vout");
+    Serial.println("status");
     Serial.println("'<cmd> ?' to view current setting");
 }
 
@@ -126,6 +129,10 @@ void loop()
             else if (tokens.equals("vout"))
             {
                 i = 5;
+            }
+            else if (tokens.equals("status"))
+            {
+                i = 6;
             }
             else
                 Serial.println("Error!");
@@ -196,6 +203,9 @@ void loop()
             tps55289_set_vout(vout_mv);
             Serial.print("vout_mv: ");
             Serial.println(vout_mv);
+
+            if (reg[5])
+                tps55289_status_report();
 
             set_ledc_timer();   // set new ledc frequence
             updatePulseWidth(); // set new pulsewidth
