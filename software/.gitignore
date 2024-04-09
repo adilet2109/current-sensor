@@ -10,3 +10,4 @@
 .gcc-flags.json
 *.code-workspace
 *.pdf
+*.ino
