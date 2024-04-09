@@ -69,8 +69,6 @@ void setup()
     digitalWrite(TPS55289_EN_PIN, HIGH);
 
     tps55289_initialize();
-    // tps55289_set_vout(1000);
-    tps55289_disable_output();
 
     Serial.println("ESP32 Pulser setup passed!");
 
