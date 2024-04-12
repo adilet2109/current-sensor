@@ -5062,6 +5062,30 @@
 		)
 		(uuid "fec0d025-c28c-4fdc-a7e4-3e5085f4ed96")
 	)
+	(rectangle
+		(start 31.75 49.53)
+		(end 52.07 54.61)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 13 30 0.36)
+		)
+		(uuid aea37496-2815-4e01-9efc-3e929b9f0dac)
+	)
+	(text "Add VBUS and 3V3 test points"
+		(exclude_from_sim no)
+		(at 42.164 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f146b44-fd9c-4cf4-8ee9-752ab6e64580")
+	)
 	(text "USB to serial"
 		(exclude_from_sim no)
 		(at 16.51 78.74 0)

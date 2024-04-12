@@ -3444,6 +3444,20 @@
 		(uuid "f9fe988e-1359-4c37-9097-4bf67d9b334c")
 	)
 	(rectangle
+		(start 113.03 63.5)
+		(end 133.35 71.12)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 13 30 0.36)
+		)
+		(uuid 06b84d56-c17f-417d-9b37-13676fb2479c)
+	)
+	(rectangle
 		(start 31.75 92.71)
 		(end 41.91 106.68)
 		(stroke
@@ -3459,7 +3473,7 @@
 	)
 	(rectangle
 		(start 24.13 80.01)
-		(end 44.45 87.63)
+		(end 44.45 88.9)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3487,7 +3501,7 @@
 	)
 	(text "Connect VCC and EXTVCC"
 		(exclude_from_sim no)
-		(at 122.936 51.054 0)
+		(at 124.968 51.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,6 +3519,17 @@
 			(justify left bottom)
 		)
 		(uuid "03c8a13c-fe5c-4d14-9a11-20f87228f4f7")
+	)
+	(text "GND and AGND need to be\nproperly laid out!!!\nOnly meeting at terminal of VCC\ncap."
+		(exclude_from_sim no)
+		(at 112.776 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47e68015-e543-497d-8b39-3dad7cabd57d")
 	)
 	(text "FB pulled UP"
 		(exclude_from_sim no)
