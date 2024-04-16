@@ -12,5 +12,5 @@
 *.pdf
 *.ino
 # Don't track KiCad auto backups
-**/kicad*.zip
-**/cc*.zip
+kicad*.zip
+cc*.zip
