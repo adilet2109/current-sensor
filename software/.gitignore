@@ -11,5 +11,6 @@
 *.code-workspace
 *.pdf
 *.ino
-kicad*.zip
-cc*.zip
+# Don't track KiCad auto backups
+**/kicad*.zip
+**/cc*.zip
