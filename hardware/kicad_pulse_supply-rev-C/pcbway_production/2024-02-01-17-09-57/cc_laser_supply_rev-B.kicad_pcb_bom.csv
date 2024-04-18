@@ -1,0 +1,85 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+"C1, C3",2,10u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,smt
+"C10, C11, C12, C8, C9",5,47u,C_2220_5650Metric,C5750X7R1V476M230KC,smt
+C13,1,22m,CP_Radial_D35.0mm_P10.00mm_SnapIn,,tht
+"C14, C23, C24, C29, C32, C35",6,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"C15, C16, C20, C5, C53, C57",6,1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"C17, C18, C2, C39, C4, C40, C41, C42, C43, C51, C52, C59, C6, C7",14,0u1,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"C19, C21, C22",3,4u7,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,smt
+"C25, C26, C30, C33, C36",5,1u5,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"C27, C28, C31, C34, C37",5,10n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+C38,1,4u7,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+"C44, C54, C55, C56",4,10u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,smt
+C45,1,68u,PCAP_EEHZ_F_PAN,EEH-ZA1H680P,smt
+"C46, C49",2,0u1,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,smt
+C47,1,100p,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,CGA2B2C0G1H101J,smt
+C48,1,4700p,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,CGA2B2X7R1H472K,smt
+C50,1,0u22,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,smt
+C58,1,100u,CP_Elec_6.3x5.8,EEHZK1V101XP ,smt
+D1,1,PWR,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,smt
+"D10, D11, D12, D13, D14, D15, D16, D17, D8, D9",10,BAT17,SOT-23,,smt
+D2,1,MBR120,D_SOD-123F,,smt
+D3,1,TX,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,smt
+D4,1,RX,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,smt
+"D5, D6",2,100V 200mA,D_SOD-323F,,smt
+D7,1,24V 1W,D_SMA,,smt
+"FB1, FB2",2,330R 700mA,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,,smt
+"H1, H2, H3, H4",4,MountingHole,MountingHole_3.5mm,,tht
+J1,1,USB_B_Micro,USB_Micro-B_Amphenol_10118194_Horizontal,,smt
+J2,1,SIG_EXT,BNC_Molex_0731375003,,tht
+J3,1,OPT_PWR,BNC_Molex_0731375003,,tht
+JP1,1,SIG_SEL,PinHeader_1x03_P2.54mm_Vertical,,tht
+JP2,1,VIN_SEL,PinHeader_1x03_P2.54mm_Vertical,,tht
+JP3,1,VCAP_SEL,custom_jumper,,smt
+L1,1,4u7,L_Coilcraft_XAL7070-XXX,XAL7070-472MEC,smt
+"Q1, Q2",2,MMBT2222*,SOT-23,,smt
+Q3,1,GAN7R0-150LBE,3-FCLGA_3.2x2.2mm,,smt
+"R1, R14, R2, R24, R25, R32, R37, R42, R5",9,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R10, R11",2,0R3,R_2010_5025Metric_Pad1.40x2.65mm_HandSolder,,smt
+"R12, R13",2,10,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,smt
+"R15, R16",2,0R06,R_2010_5025Metric_Pad1.40x2.65mm_HandSolder,,smt
+"R17, R18",2,0R03,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,smt
+"R19, R20",2,0R015,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,smt
+R21,1,0,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R22, R23, R31, R36, R41, R6, R7",7,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R26, R33, R38, R4, R43, R8, R9",7,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R27, R28, R34, R39, R44",5,1M,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R29, R30, R35, R40, R45",5,22,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R3,1,100k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R46,1,102k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R47,1,27k4,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R48,1,49k9,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R49,1,150k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+"R50, R51",2,10,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,smt
+R52,1,10m,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,CRF1206-FZ-R010ELF,smt
+RV1,1,2k,Potentiometer_Bourns_3214X_Vertical,3214X-1-202E,smt
+SW1,1,KMR211GLFS,SW_Push_1P1T-SH_NO_CK_KMR2xxG,,smt
+TP1,1,SCL,Keystone-1502-2,,tht
+"TP10, TP16, TP4",3,GND,Keystone-1502-2,,tht
+TP11,1,5A_OUT,Keystone-1502-2,,tht
+TP12,1,10A_OUT,Keystone-1502-2,,tht
+TP13,1,20A_OUT,Keystone-1502-2,,tht
+TP14,1,5V,Keystone-1502-2,,tht
+TP15,1,EXT_VIN,Keystone-1502-2,,tht
+TP17,1,ADC_1A,Keystone-1502-2,,tht
+TP18,1,OPT_PEAK,Keystone-1502-2,,tht
+TP19,1,ADC_5A,Keystone-1502-2,,tht
+TP2,1,SDA,Keystone-1502-2,,tht
+TP20,1,ADC_10A,Keystone-1502-2,,tht
+TP21,1,ADC_20A,Keystone-1502-2,,tht
+TP22,1,OPT_RAW,Keystone-1502-2,,tht
+TP23,1,TPS_VCAP,TestPoint_Pad_D2.5mm,,tht
+TP3,1,VCAP_IN,Keystone-1502-2,,tht
+TP5,1,DUT+,Keystone-1502-2,,tht
+TP6,1,VGATE,Keystone-1502-2,,tht
+TP7,1,DUT-,Keystone-1502-2,,tht
+TP8,1,1A_OUT,Keystone-1502-2,,tht
+TP9,1,SIG_EXT,Keystone-1502-2,,tht
+U1,1,AP2112K-3.3,SOT-23-5,,smt
+"U10, U11, U7, U8, U9",5,LTC6244CMS8,MSOP-8_3x3mm_P0.65mm,,smt
+U12,1,TPS552892RYQR,CONV_TPS552892RYQR,,smt
+U2,1,ESP32-WROOM-32D,ESP32-WROOM-32D,,smt
+U3,1,CP2104,QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,,smt
+U4,1,MAX4378,TSSOP-14_4.4x5mm_P0.65mm,,smt
+U5,1,UCC27611DRVT,UCC27611DRVT,,smt
+U6,1,MCP1703T-5002E/MB,SOT-89-3,,smt
